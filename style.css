@@ -642,6 +642,10 @@ header nav {
   position: relative;
   margin-bottom: 80px;
 }
+.imgsize{
+  width: 100%;
+  height: 300px;
+}
 .add1 {
   background-image: url('../images/add.png');
 }
