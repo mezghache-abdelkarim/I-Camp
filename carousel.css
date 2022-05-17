@@ -32,6 +32,9 @@ body {
   bottom: 3rem;
   z-index: 10;
 }
+.carousel-inner{
+   border-radius: 20px;
+}
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
@@ -83,6 +86,10 @@ body {
 }
 
 .logoi{width: 50px;}
+.add-info p {
+  font-size:large;
+  font-weight: 600;
+}
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
