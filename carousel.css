@@ -1,19 +1,15 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
-.hov:hover{animation: shen 1s alternate-reverse;}
+.hov:hover{animation: shen 1.5s alternate;}
 @keyframes shen {
-    0%{opacity: 1;}
-    100% {opacity: 0.8;
-    transform:  translate(-10em, 0em );
-    }
+    40% {transform:  translate(-1em, 0em );}
+    100%{transform:  translate(0em, 0em );}
 }
 .hov2:hover{animation: shan 1s alternate-reverse;}
 @keyframes shan {
-    0%{opacity: 1;}
-    100% {opacity: 0.8;
-    transform:  translate(10em, 0em );
-    }
+    40% {transform:  translate(-1em, 0em );}
+    100%{transform:  translate(0em, 0em );}
 }
 
 
