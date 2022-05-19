@@ -41,6 +41,20 @@ body {
   background-color: #303030;
 }
 
+.para{font-size:x-large;padding: 20px;text-align: center;}
+.para::after{content:"";right: 0%; width: 200px ;height: 200px;
+  background-color: #ffcc017a;position: absolute;border-radius: 50%;
+transform: translate(-2em);}
+.hit{text-align: center; border-radius: 10px; background-color: #ffcc0160; width: 40%;margin: auto;height: 80px;align-items: center;padding: 5px;}
+.hit::after{content:"";right: 0%; width: 150px ;height: 150px;
+  background-color: #ffcc0183;position: absolute;border-radius: 50%;
+transform: translate(-2em );}
+
+
+.add-image1::after{content:"";right: 0%; width: 100px ;height: 70px;top: 0%;
+  background-color: #ffcc0100;position: absolute;border-radius: 50%;border: rgb(255, 255, 255) 9px solid;
+transform: translate(1.5em ,-1.5em);z-index: 0;position: absolute;z-index: -3;}
+
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
