@@ -7,13 +7,14 @@
   <meta name="description" content="">
   <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
   <meta name="generator" content="Hugo 0.83.1">
-  <title>Carousel Template · Bootstrap v5.0</title>
-
+  <title>I-camp</title>
+  <!-- Custom styles for this template -->
   <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
-
   <!-- Bootstrap core CSS -->
+  <link  rel="icon" href="/img/Skikda i -techArtboard 6 copy@2x.png" type="image/svg">
   <link href="dist/css/bootstrap.min.css" rel="stylesheet">
-
+  <link rel="stylesheet" href="style.css">
+  <link href="carousel.css" rel="stylesheet">
   <style>
     .bd-placeholder-img {
       font-size: 1.125rem;
@@ -29,20 +30,21 @@
       }
     }
   </style>
+  <!-- font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet">
 
 
-  <!-- Custom styles for this template -->
-  <link rel="stylesheet" href="style.css">
-  <link href="carousel.css" rel="stylesheet">
 </head>
 
-<body>
+<body >
 
-  <header>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top ">
-      <div class="container-fluid">
-        <a class="navbar-brand h4" href="#"><img class="logoi" src="img/Skikda i -techArtboard 6 copy@2x.png" alt="">
-          I-Camp </a>
+  <header class="container">
+    <nav class="navbar navbar-expand-md bg-light   ">
+      <div class="container-fluid p-5">
+        <a class="navbar-brand h3 " href="#"><img class="logoi" src="img/Skikda i -techArtboard 6 copy@2x.png" alt="">
+          </a><span class="h3" style="font-family: 'Rye', cursive;">I-Camp</span>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
           aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -65,20 +67,23 @@
     </nav>
   </header>
 
-  <main>
 
-    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+
+    <div id="myCarousel" class="carousel slide container " data-bs-ride="carousel">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
           aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
-      <div class="carousel-inner">
+      <div class="carousel-inner"  >
         <div class="carousel-item active">
-          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"> <img
-              style="height: 1000px; top: -200px;" src="img/DSC_0437-01.jpeg" alt="" /></svg>
+
+          <img style="height: 1000px; top: -200px; " 
+          src="img/avi-i5RpdwjYK7g-unsplash.jpg" alt="" />
+
+          <!-- <img style="height: 1000px; top: -200px; " src="img/avi-i5RpdwjYK7g-unsplash.jpg" alt="" /> -->
+
 
           <!-- <div class="container">
           <div class="carousel-caption text-start">
@@ -89,11 +94,8 @@
         </div> -->
         </div>
         <div class="carousel-item">
-          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"> <img
-              style="height: 1000px; top: -200px;"
-              src="img/serigina/280443602_726596848683272_7387700834294786996_n.jpg" alt=""> </svg>
-
+          <img style="height: 100%; "
+          src="img/robert-bye-OlZ1nWLEEgM-unsplash.jpg" alt="">
           <!-- <div class="container">
           <div class="carousel-caption">
             <h1>Another example headline.</h1>
@@ -103,9 +105,8 @@
         </div> -->
         </div>
         <div class="carousel-item">
-          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"> <img style="height: 10O0px ; "
-              src="img/278530608_1013985492836818_5311513598057028522_n.jpg" alt=""> </svg>
+          <img style="height: 10O0px;"
+              src="img//camille-minouflet-d7M5Xramf8g-unsplash.jpg" alt="">
 
           <!-- <div class="container">
           <div class="carousel-caption text-end">
@@ -132,11 +133,11 @@
     <!-- Wrap the rest of the page in another container to center all the content. -->
 
     <!-- START THE FEATURETTES -->
-    <div style="padding: 50px;">
-      <h1> I-Camp </h1>
-      <p class="h4"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate impedit earum quasi esse
-        incidunt asperiores, atque laborum perferendis
-        mollitia sapiente possimus dicta provident, tempore facere quas officia dolorem reiciendis voluptatem.</p>
+    <div class="container" style="padding: 50px;">
+      <h1 class="hit" style="font-family: 'Rye', cursive;"> I-Camp </h1>
+      <p class="para" style="text-indent: 50px;"> Découvrez notre large choix de campings pour partir à la découverte des plus belles régions de Skikda. Trouvez le camping idéal
+      il y en a pour tous les goûts ! Que vous soyez à la recherche d'un camping en bord de mer ou bien 
+      d'un camping à la mongit tagne, vous trouverez forcément une destination pour satisfaire vos envies.</p>
     </div>
 
     <!-- <div class="container marketing">
@@ -170,17 +171,18 @@
         <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
       </div>
     </div>  -->
-
-    <hr class="featurette-divider">
+<div class="container">
+    <hr class="featurette-divider m-1">
 
     <!-- /END THE FEATURETTES -->
     <section class="add">
-      <div class="container">
+      <div class="">
         <div class="row">
           <!-- kanwah  -->
-          <div class="col-12 col-md-7 float-start">
-            <div class="add-image1 right add2">
-              <img class="imgsize" src="img/kanwah/maxresdefault.jpg" alt="">
+          <div class="hov row ">
+          <div class="col-12 col-md-6 float-start">
+            <div class="add-image1 right add2 ">
+              <img class="imgsize" src="img/kanwah/kanwah1_0.jpg" alt="">
               <a href="https://www.google.com/maps/place/%D9%82%D9%86%D9%88%D8%A7%D8%B9%E2%80%AD/@37.0472959,6.4825576,12z/data=!3m1!4b1!4m5!3m4!1s0x12f20201cfa8120d:0x6488910684ce5d2b!8m2!3d37.037767!4d6.4058645" class="btn add-image-info add-image-info2 flex-center" target="_blank">
                 <img src="img/pointer.svg" class="left" alt="">
                 <!-- image location -->
@@ -188,39 +190,42 @@
               </a>
             </div>
           </div>
-          <div class="col-12 col-md-5 flex-center">
+          <div class="col-12 col-md-6 flex-center">
             <div class="add-info add2-info">
               <!-- Add title -->
               <h4>Kanwah,Skikda </h4>
               <!-- Add info -->
               <p>à une altitude de 900 mètres au-dessus du niveau de la mer se trouve kanoua 
-
                 Kanoua est connue pour sa municipalité paysage pittoresque ajouté aux forêts denses de pins et de liège, elle est aussi célèbre pour la production de bois et de liège aussi son filet , et les nombreuses sources qui sont exportés et consommés des eaux douces dans tout la willaya de Skikda, en plus de certaines parties de Constantine et Annaba .</p>
             </div>
           </div>
           <!-- Grablo  -->
-          <div class="col-12 col-md-5 flex-center">
+          <div class="col-12 col-md-6 flex-center">
             <div class="add-info add2-info">
               <!-- Add title -->
               <h4>Grablo,Skikda</h4>
               <!-- Add info -->
+
               <p>sur une côte corallienne qui combine montagnes, forêts, coraux et grotte, la belle plage "Grablo" est située à Karkara dans la wilaya de Skikda, où le charme de l'endroit est devenu une destination pour tous ceux qui aiment la mer et est tenté par son sable doré et rafraîchi par ses brises de montagne. Là où la plage de Grablo à Karkarah se transforme en une destination pour les médecins qui veulent la paix et la tranquillité loin des hôpitaux, en particulier des gouvernorats de Constantine et de Batna, elle est également devenue une destination pour les régiments de scoutisme en raison de ses riches éléments de camping. un vivier de touristes de l'intérieur et de l'extérieur du pays qui ont été enchantés par la splendeur de son débat, alors ils ont décidé de revenir vers lui</p>
+
+              
+
             </div>
           </div>
-          <div class="col-12 col-md-7">
+          <div class="col-12 col-md-6 ">
             <div class="add-image2 right add2">
-              <img class="imgsize" src="img/tizagben/IMG_20220226_120318.jpg" alt="">
+              <img class="imgsize" src="img/plas/photo__sea__travel__viimage2.png" alt="">
               <a href="https://www.google.com/maps/place/%D8%B4%D8%A7%D8%B7%D8%A6+%DA%A8%D8%B1%D8%A7%D8%A8%D9%84%D9%88+%D8%A7%D9%84%D9%83%D8%B1%D9%83%D8%B1%D8%A9+%D8%AA%D9%85%D8%A7%D9%84%D9%88%D8%B3%E2%80%AD/@36.9501916,6.6670382,17z/data=!3m1!4b1!4m5!3m4!1s0x12f1e759f117d39d:0xc0f2ecd76d36c995!8m2!3d36.9501916!4d6.6648495?hl=ar" class="btn add-image-info add-image-info2 flex-center" target="_blank">
                   <img src="img/pointer.svg" class="left" alt="">
                   <!-- image location -->
                   <p>Grablo,Skikda</p>
               </a>
             </div>
-          </div>
-          <!-- Oued Bibi -->
-          <div class="col-12 col-md-7 float-start">
+          </div></div>
+          <!-- Oued Bibi --><div class="hov2 row">
+          <div class="col-12 col-md-6 float-start">
             <div class="add-image1 right add2">
-              <img class="imgsize" src="img/kanwah/maxresdefault.jpg" alt="">
+              <img class="imgsize" src="img/oued bibi/oued bibi1_0.jpg" alt="">
               <a href="https://www.google.com/maps/place/Oued+B%C3%AEbi/@36.9448816,6.7580327,14z/data=!3m1!4b1!4m5!3m4!1s0x12f1e7fa9a63b591:0x56fdbd9c9785ed93!8m2!3d36.9448834!4d6.7405231" class="btn add-image-info add-image-info2 flex-center" target="_blank">
                 <img src="img/pointer.svg" class="left" alt="">
                 <!-- image location -->
@@ -228,7 +233,7 @@
               </a>
             </div>
           </div>
-          <div class="col-12 col-md-5 flex-center">
+          <div class="col-12 col-md-6 flex-center">
             <div class="add-info add2-info">
               <!-- Add title -->
               <h4>Oued Bibi,Skikda </h4>
@@ -238,7 +243,7 @@
             </div>
           </div>
           <!-- oued Saboun -->
-          <div class="col-12 col-md-5 flex-center">
+          <div class="col-12 col-md-6 flex-center">
             <div class="add-info add2-info">
               <!-- Add title -->
               <h4>oued Saboun,Skikda</h4>
@@ -246,20 +251,20 @@
               <p>La plage de Ouad al saboun à Felfela Skikda est l'une des plus belles plages d'Algérie et des plus calmes et confortables, de beaux paysages qui allient la pureté de l'eau et la verdure des montagnes, une plage qui mérite une visite par excellence.</p>
             </div>
           </div>
-          <div class="col-12 col-md-7">
+          <div class="col-12 col-md-6 ">
             <div class="add-image2 right add2">
-              <img class="imgsize" src="img/tizagben/IMG_20220226_120318.jpg" alt="">
+              <img class="imgsize" src="img/oued saboun/oued saboun1_0.jpg" alt="">
               <a href="https://www.google.com/maps/place/%D8%B4%D9%80%D9%80%D9%80%D8%A7%D8%B7%D8%A6+%D9%88%D8%A7%D8%AF+%D8%A7%D9%84%D8%B5%D9%80%D8%A7%D8%A8%D9%80%D9%88%D9%86,+Filfila%E2%80%AD/@36.9084592,7.1537089,13z/data=!4m5!3m4!1s0x12f0329ea8b5ae9b:0xb59781e62722e260!8m2!3d36.9084592!4d7.11869" class="btn add-image-info add-image-info2 flex-center" target="_blank">
                   <img src="img/pointer.svg" class="left" alt="">
                   <!-- image location -->
                   <p>oued Saboun,Skikda</p>
               </a>
             </div>
-          </div>
-          <!-- serigina  -->
-          <div class="col-12 col-md-7 float-start">
+          </div></div>
+          <!-- serigina  --><div class="hov row">
+          <div class="col-12 col-md-6 float-start">
             <div class="add-image1 right add2">
-              <img class="imgsize" src="img/kanwah/maxresdefault.jpg" alt="">
+              <img class="imgsize" src="img/serigina/serigina1_0.jpg" alt="">
               <a href="https://www.google.com/maps/place/Sr%C3%AEdj%C3%AEna/@36.9377769,6.8951437,15z/data=!3m1!4b1!4m5!3m4!1s0x12f1dada85fee9f1:0xb0023bcc5c066f8c!8m2!3d36.9377778!4d6.8863889" class="btn add-image-info add-image-info2 flex-center" target="_blank">
                 <img src="img/pointer.svg" class="left" alt="">
                 <!-- image location -->
@@ -267,7 +272,7 @@
               </a>
             </div>
           </div>
-          <div class="col-12 col-md-5 flex-center">
+          <div class="col-12 col-md-6 flex-center">
             <div class="add-info add2-info">
               <!-- Add title -->
               <h4>serigina,Skikda </h4>
@@ -281,7 +286,7 @@
             </div>
           </div>
           <!-- Sidi idriss  -->
-          <div class="col-12 col-md-5 flex-center">
+          <div class="col-12 col-md-6 flex-center">
             <div class="add-info add2-info">
               <!-- Add title -->
               <h4>Sidi idriss,Skikda</h4>
@@ -289,20 +294,20 @@
               <p>Sidi Idriss, la plus haute montagne de Skikda, avec une hauteur d'environ 1364 m au dessus du niveau de la mer, est à l'origine une montagne volcanique endormie, ce qui en fait une destination merveilleuse pour les amateurs d'aventure et d'exploration.</p>
             </div>
           </div>
-          <div class="col-12 col-md-7">
+          <div class="col-12 col-md-6 ">
             <div class="add-image2 right add2">
-              <img class="imgsize" src="img/tizagben/IMG_20220226_120318.jpg" alt="">
+              <img class="imgsize" src="img/sidi idriss/sidi idris1_0.jpg" alt="">
               <a href="https://www.google.com/maps/search/Sidi+idriss,Skikda/@36.5874553,6.570855,13z" class="btn add-image-info add-image-info2 flex-center" target="_blank">
                   <img src="img/pointer.svg" class="left" alt="">
                   <!-- image location -->
                   <p>Sidi idriss,Skikda</p>
               </a>
             </div>
-          </div>
-          <!-- Sophia -->
-          <div class="col-12 col-md-7 float-start">
+          </div></div>
+          <!-- Sophia --><div class="hov2 row">
+          <div class="col-12 col-md-6 float-start">
             <div class="add-image1 right add2">
-              <img class="imgsize" src="img/kanwah/maxresdefault.jpg" alt="">
+              <img class="imgsize" src="img/sophia/sofia1_0.jpg_large" alt="">
               <a href="https://www.google.com/maps/place/Plage+SOFIA,+Guerbez/@36.7369419,6.8860624,10z/data=!4m8!1m2!2m1!1sSophia,Skikda!3m4!1s0x12f02dccd7e9c5ab:0x9c3051f2cb7189ef!8m2!3d36.9115877!4d7.1442655" class="btn add-image-info add-image-info2 flex-center" target="_blank">
                 <img src="img/pointer.svg" class="left" alt="">
                 <!-- image location -->
@@ -310,7 +315,7 @@
               </a>
             </div>
           </div>
-          <div class="col-12 col-md-5 flex-center">
+          <div class="col-12 col-md-6 flex-center">
             <div class="add-info add2-info">
               <!-- Add title -->
               <h4>Sophia,Skikda </h4>
@@ -323,7 +328,7 @@
             </div>
           </div>
           <!-- tizagben -->
-          <div class="col-12 col-md-5 flex-center">
+          <div class="col-12 col-md-6 flex-center">
             <div class="add-info add2-info">
               <!-- Add title -->
               <h4>Tizagben,Skikda</h4>
@@ -333,16 +338,16 @@
                 Il existe de nombreux types de plantes et  arbres dans la forêt , ainsi qu'une variété d'espèces d'oiseaux</p>
             </div>
           </div>
-          <div class="col-12 col-md-7">
+          <div class="col-12 col-md-6 ">
             <div class="add-image2 right add2">
-              <img class="imgsize" src="img/tizagben/IMG_20220226_120318.jpg" alt="">
+              <img class="imgsize" src="img/tizagben/1_0.jpg" alt="">
               <a href="https://www.google.com/maps/place/%D8%BA%D8%A7%D8%A8%D8%A9+%D8%AA%D9%8A%D8%B2%D8%BA%D8%A8%D8%A7%D9%86%E2%80%AD/@37.0038402,6.3711645,3646m/data=!3m1!1e3!4m8!1m2!2m1!1soulad+attia!3m4!1s0x12f2032b04b9aec5:0xd53599f79a5ee6ac!8m2!3d37.0111782!4d6.3739529!5m1!1e4" class="btn add-image-info add-image-info2 flex-center" target="_blank">
                   <img src="img/pointer.svg" class="left" alt="">
                   <!-- image location -->
                   <p>Tizagben,Skikda</p>
               </a>
             </div>
-          </div>
+          </div></div>
 
           <!-- <div class="col-12 col-md-7">
             <div class="add-image add3">
@@ -365,37 +370,43 @@
 
 
     <!-- FOOTER -->
-    <!--<footer class=" p-4">
-      <p class="float-end"><a href="#">Back to top</a></p>
-      <p>&copy; 2022 I-tech Club &middot; </p>
-    </footer>-->
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 mt-4 mb-0 border-top">
-      <div class="col-md-4 d-flex align-items-center">
-        <img src="/I-Camp/img/Skikda_i_-techArtboard_6_copy2x1_0.png" width="30" height="30" alt="" class="ms-5">
-        <span class="mb-3 mb-md-0 text-muted fs-5">© 2022 I-Tech, club</span>
-      </div>
-  
-      <ul class="nav col-md-4 justify-content-end  d-flex  ">
-        <!--facebook link-->
-        <li class="ms-4"><a class="text-muted" href="https://web.facebook.com/skikdaitech/?_rdc=1&_rdr" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
-          <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
-        </svg></a></li>
-        <!--instagram link-->
-        <li class="ms-4 "><a class="text-muted" href="https://www.instagram.com/skikda_i_tech_club/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+
+
+
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="facebook" viewBox="0 0 16 16">
+        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+      </symbol>
+      <symbol id="instagram" viewBox="0 0 16 16">
           <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
-        </svg></a></li>
-        <!--tiktok link-->
-        <li class=" ms-4  me-5"><a class="text-muted" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-tiktok" viewBox="0 0 16 16">
-          <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3V0Z"/>
-        </svg></a></li>
-        
-      </ul>
-      
-    </footer>  
+      </symbol>
+      <symbol id="twitter" viewBox="0 0 16 16">
+        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+      </symbol>
+    </svg>
+
+
+
+
+    <div class="container bg-light">
+      <div class="d-flex flex-wrap justify-content-between align-items-center p-4  border-top ">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="#" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+            <img class="logoi" src="/img/Skikda i -techArtboard 6 copy@2x.png" alt="">
+          </a>
+          <span class="text-muted">&copy; 2022 Skikda I-Tech</span>
+        </div>
     
-  </main>
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+          <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/skikda_i_tech_club/" target="_blank"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+          <li class="ms-3"><a class="text-muted" href="https://web.facebook.com/skikdaitech/?_rdc=1&_rdr" target="_blank"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+        </ul>
+      </div>
+    </div>
 
 
+</div>
   <script src="dist/js/bootstrap.bundle.min.js"></script>
 
 
